@@ -8,6 +8,9 @@ RUN set -ex && \
     apk add --no-cache chromium lsof
 
 RUN set -ex && \
+    apk add rust go php lua lua-dev
+
+RUN set -ex && \
     rm -f /usr/libexec/gcc/x86_64-alpine-linux-musl/6.4.0/cc1obj && \
     rm -f /usr/libexec/gcc/x86_64-alpine-linux-musl/6.4.0/lto1 && \
     rm -f /usr/libexec/gcc/x86_64-alpine-linux-musl/6.4.0/lto-wrapper && \

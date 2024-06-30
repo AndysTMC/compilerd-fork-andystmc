@@ -1,0 +1,119 @@
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-block: 50px;
+}
+
+.code-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  column-gap: 25px;
+  flex-wrap: wrap;
+  row-gap: 25px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.io-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 50px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.input-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.output-container {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.io {
+  width: 70%;
+  min-width: 400px;
+  height: 100px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.dropdown {
+  width: 100px;
+  font-size: small;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  padding-inline: 5px;
+  padding-block: 5px;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.dropdownmenu {
+  background-color: grey;
+  border-radius: 15px;
+}
+
+.dropdowncontrol {
+  background-color: white;
+  border-radius: 15px;
+}
+
+.editor {
+  width: 40%;
+  height: 300px;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+.submit-button {
+  width: 100px;
+  height: 59px;
+  background-color: #646cff;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.submit-button:active {
+  background-color: #535bf2;
+  transform: scale(0.95);
+}
